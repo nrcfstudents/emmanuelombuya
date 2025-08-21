@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+
+}
+.top-bar{
+    background-color:#a4c639;
+    color: white;
+    font-size: 14px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    /* height: 35px; */
+   display: flex;
+   justify-content: space-between;
+}
+.social-icons img {
+    width: 20px;
+}
+.top-bar-left{
+    display: flex;
+}
+   
+.top-bar-left p{
+    margin: 0;    
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    height: 30px;
+    align-items: center;
+}
+.top-bar-left p :last-child{
+    border-right: 1px solid white;
+}
+.social-icons img{
+    width: 16px;
+    border-left: 1px solid white;
+   
+}
+.social-icons img :last-child{
+    border-right: 1px solid white;
+}
+.about-section{
+    background :url(slide_01.jpg)center no-repeat;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    margin: 0px;
+    height: 100vh;
+    background-image: url() center/color no-repeat;
+    align-items: vertical;
+    height: 60vh;
+}
+.social-icons{
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+.nav-bar h2{
+    margin: 0px;
+}
+.top-bar-left p,.social-icons img{
+    padding: 7px 7px;
+}
+.nav-bar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+ .nav-bar a {
+    text-decoration: none;
+    color: white;
+ }
+ .nav-bar-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+ }
+ 
+ .nav-bar-links .home{
+    color: #a4c639;
+    border-bottom: 1px solid #a4c639;
+ }
+ .about-info h3{
+    color: #a4c639;
+ }
+ .about-info h1{
+    color:white;
+ }
+ .about-info p{
+    font-size: medium;
+    color: white;
+    margin-bottom: 50px;
+    line-height: 30px;
+ }
+ .about-info a{
+    text-decoration: none;
+    color: white;
+    background-color: #a4c639;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right:20px ;
+    padding-left: 20px; 
+    border-radius: 25px;
+    font-size: 15px;
+
+ }
+ .about-info{
+    padding-bottom: 50px;
+    padding-top: 50px;
+ }
+ .call-request{
+    background-color: #a4c639;
+    color:white ;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+ }
+ .call-request a{
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+ }
